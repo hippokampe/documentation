@@ -1,0 +1,39 @@
+title: Hippokampe 
+email: orozco.davidj02@gmail.com 
+description: >- 
+  Hippokampe is the final cli tool fo the holberton community.
+  You will be able to find how to use, install and customize Hippokampe.
+baseurl: "" 
+  # url: "https://docs.hippokampe.wtf" 
+twitter_username: Orozco_DavidJ 
+github_username: hippokampe
+
+# Build settings
+theme: "just-the-docs"
+plugins:
+  - jekyll-feed
+
+# deployment
+host: 0.0.0.0
+port: 5000
+
+
+logo: "assets/images/horse_vector.png"
+color_scheme: light 
+aux_links:
+  "Hippokampe on GitHub":
+    - "//github.com/hippokampe"
+aux_links_new_tab: true
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
