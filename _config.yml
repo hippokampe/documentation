@@ -37,3 +37,8 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+ga_tracking: G-Z1W0TMNFVR
+ga_tracking_anonymize_ip: false # Use GDPR compliant Google Analytics settings (true by default)
